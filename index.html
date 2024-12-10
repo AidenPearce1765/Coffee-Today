@@ -10,12 +10,18 @@
     <script src="script.js" defer></script>
     <!-- boxicon -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 
 </head>
 <body>
     
     <header class="header">
-        <a href="#" class="logo">Coffee Today</a>
+
+        <div class="logo">
+            <i class='bx bxs-coffee-bean'></i>
+            <a href="#" class="logo">Coffee Today</a>
+        </div>
 
         <input type="checkbox" id="check">
         <label for="check" class="icons">
@@ -31,7 +37,97 @@
             <a href="#" style="--i:4;">ارتباط با ما</a>
         </nav>
 
+        <div class="icons-s">
+            <i class="fas fa-search" id="search-btn"></i>
+            <div class="cart-bar">
+                <div class="cart-number">
+                    <p>0</p>
+                </div>
+                <i class="fas fa-shopping-cart" id="cart-btn"></i>
+            </div>
+        </div>
+
+        <div class="search-bar" id="search-bar">
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+            </div>
+            <input type="search" class="search" id="search" placeholder="search here">
+        </div>
+
     </header>
+
+    <!-- home -->
+     <section class="home">
+
+     </section>
+
+    <!-- products -->
+
+    <section class="products" id="products">
+        
+        <div class="heading">
+            <h2>محصولات</h2>
+        </div>
+
+        <!-- container -->
+        <div class="products-container">
+
+            <div class="box">
+                <img src="img/products/p1.png" alt="">
+                <h3>عربیکا</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="#">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/products/p2.png" alt="">
+                <h3>آمریکانو</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="#">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/products/p3.png" alt="">
+                <h3>آمریکانو</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="#">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/products/p4.png" alt="">
+                <h3>آمریکانو</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="#">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/products/p5.png" alt="">
+                <h3>آمریکانو</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="#">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/products/p6.png" alt="">
+                <h3>آمریکانو</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="#">add to cart</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
 
 </body>
 </html>
