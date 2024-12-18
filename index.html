@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Coffee Today</title>
     <!-- style link -->
     <link rel="stylesheet" href="style.css">
@@ -11,7 +11,7 @@
     <!-- boxicon -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 <body>
@@ -65,69 +65,102 @@
 
     <section class="products" id="products">
         
-        <div class="heading">
-            <h2>محصولات</h2>
+        <div class="title" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="500">
+            <h1 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">محصولات و قیمت ها</h1>
         </div>
 
         <!-- container -->
         <div class="products-container">
 
-            <div class="box">
-                <img src="img/products/p1.png" alt="">
-                <h3>عربیکا</h3>
-                <div class="content">
-                    <span>$25</span>
-                    <a href="#">add to cart</a>
+            <div class="ctn-left">
+                <h1  data-aos="fade-left" data-aos-duration="1500">قهوه های داغ</h1>
+                <div class="ctn-coffee">
+
+                    <div class="card" data-aos="fade-down" data-aos-duration="1500">
+                        <div class="picture">
+                            <img src="img/products/s1.jpg" alt="">
+                            <div class="price">5$</div>
+                        </div>
+                        <div class="content">
+                            <h2>قهوه سیاه</h2>
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،</p>
+                        </div>
+                    </div>
+
+                    <div class="card" data-aos="fade-right" data-aos-duration="1500">
+                        <div class="picture">
+                            <img src="img/products/s2.jpeg" alt="">
+                            <div class="price">5$</div>
+                        </div>
+                        <div class="content">
+                            <h2>قهوه شکلات</h2>
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،</p>
+                        </div>
+                    </div>
+
+                    <div class="card" data-aos="fade-up" data-aos-duration="1500">
+                        <div class="picture">
+                            <img src="img/products/s3.jpg" alt="">
+                            <div class="price">5$</div>
+                        </div>
+                        <div class="content">
+                            <h2>شیر قهوه</h2>
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
+            <div class="ctn-right">
+                <h1 data-aos="fade-right" data-aos-duration="1500">قهوه های سرد</h1>
+                <div class="ctn-coffee">
 
-            <div class="box">
-                <img src="img/products/p2.png" alt="">
-                <h3>آمریکانو</h3>
-                <div class="content">
-                    <span>$25</span>
-                    <a href="#">add to cart</a>
+                    <div class="card" data-aos="fade-down" data-aos-duration="1500">
+                        <div class="picture">
+                            <img src="img/products/s4.jpg" alt="">
+                            <div class="price">5$</div>
+                        </div>
+                        <div class="content">
+                            <h2>قهوه سیاه</h2>
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،</p>
+                        </div>
+                    </div>
+
+                    <div class="card" data-aos="fade-left" data-aos-duration="1500">
+                        <div class="picture">
+                            <img src="img/products/s5.jpg" alt="">
+                            <div class="price">5$</div>
+                        </div>
+                        <div class="content">
+                            <h2>قهوه شکلات</h2>
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،</p>
+                        </div>
+                    </div>
+
+                    <div class="card" data-aos="fade-up" data-aos-duration="1500">
+                        <div class="picture">
+                            <img src="img/products/s6.jpg" alt="">
+                            <div class="price">5$</div>
+                        </div>
+                        <div class="content">
+                            <h2>شیر قهوه</h2>
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-
-            <div class="box">
-                <img src="img/products/p3.png" alt="">
-                <h3>آمریکانو</h3>
-                <div class="content">
-                    <span>$25</span>
-                    <a href="#">add to cart</a>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="img/products/p4.png" alt="">
-                <h3>آمریکانو</h3>
-                <div class="content">
-                    <span>$25</span>
-                    <a href="#">add to cart</a>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="img/products/p5.png" alt="">
-                <h3>آمریکانو</h3>
-                <div class="content">
-                    <span>$25</span>
-                    <a href="#">add to cart</a>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="img/products/p6.png" alt="">
-                <h3>آمریکانو</h3>
-                <div class="content">
-                    <span>$25</span>
-                    <a href="#">add to cart</a>
-                </div>
-            </div>
-
         </div>
+
     </section>
 
+    <section class="home">
+    
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
